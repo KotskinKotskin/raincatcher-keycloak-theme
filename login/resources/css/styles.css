@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(63,81,181);
-    /*background-image: url('../img/bkgrnd.jpg');*/
+    background-image: url('https://bpmn2.ru/wp-content/uploads/2021/10/signUp.d06976bb.jpg');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -48,9 +48,6 @@ div#kc-content {
     margin-left: -44%;
 }
 
-div#kc-form {
-
-}
 /* label change Username, Password text*/
 div#kc-form label {
     color: rgba(255, 255, 255, 0.7) !important;
@@ -60,6 +57,7 @@ div#kc-form label {
 /**/
 div#kc-form-login {
     text-align: center;
+    display: none;
 }
 
 div#info-area {
@@ -136,6 +134,9 @@ div#kc-feedback-wrapper {
 
 div.feedback-success {
     background-color: rgba(155,155,255,0.1);
+}
+header#login-pf-header {
+    display: none;
 }
 
 div.feedback-warning {
